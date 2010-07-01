@@ -1,0 +1,6 @@
+tumbl.rb is a way for lazy-posting images to the queue. Nothing really complex a Ruby Pro couldn't cook up in a minute. It is really a big Hello World script for me, and I plan to extend it further, to test and learn other parts of the language. 
+One feature that's gonna be added is probably text posting, with the system understanding the type of text post you want from the content of the txt file.
+
+How does it work? ou make a folder for every tumblog you want to upload to. the folder name needs to be called as the tumblr url slug (files for your first tumblog should go to the default folder) Then you run the script. 
+Uploads any image (just images for now, and just jpgs), and keeps the directory clean by deleting older files.
+I keep it in my Dropbox so if I want to reblag a photo when I'm browsing on the iPad I just save it on the folder, then when I'm back home I just fire the script and it gets uploaded. Zero-hassle posting. 
